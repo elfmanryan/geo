@@ -15,3 +15,6 @@ htmlcov/
 *.dat
 *.json
 *.ipynb
+**/*.nc
+**/*.so
+*.xml

@@ -15,8 +15,14 @@ htmlcov/
 *.dat
 *.json
 *.ipynb
+<<<<<<< HEAD
 .idea/
 **/*.nc
 **/*.so
 *.xml
+=======
+.vagrant/machines/default/virtualbox/action_provision
+.vagrant/
+*.nc
+>>>>>>> writes tifs
 .idea/

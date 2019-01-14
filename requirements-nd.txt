@@ -1,0 +1,4 @@
+cython==0.28.5 #duplicated in base.txt
+cythongsl #todo: version?
+xarray==0.11
+opencv-contrib-python

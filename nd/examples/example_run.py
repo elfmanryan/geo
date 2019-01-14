@@ -1,7 +1,6 @@
 """This script calls the xchange code on an an example folder of date"""
 
 
-# import bunge
 import argparse
 import pathlib
 # import sys
@@ -17,11 +16,7 @@ from nd import utils
 from nd import change
 #from nd.change.omnibus_ import _change_detection as cd
 from nd.io import rasterio_
-# import xarray as xr
-# from affine import Affine
-# from collections import defaultdict
-# import os
-# from rasterio.enums import ColorInterp
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -67,15 +62,16 @@ if __name__ == "__main__":
 
     #use omnibus_.py fo change detection
 
-    #xdscd = cd(xds, alpha=0.01, n=9) #9 multilooks #
+    xdscd = change_detection(xds, alpha=0.01, n=9) #9 multilooks #
+
+    print(xdscd)
+    print('has shape {}'.format(xdscd.shape))
+
    # print('\n')
     # print("gdal info on change ouput raster:")
     # info = gdal.Info(str(save_path.resolve()), format='json', stats=True)
     # print(info)
     #utils.xarray_to_raster(xdscd, save_path=save_path, variable_name='change', set_no_data=255, data_type='uint8')
-
-    #
-
 
 
 

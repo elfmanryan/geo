@@ -1,3 +1,18 @@
+numpy==1.15.3 #duplicate in base.txt
+pandas==0.23.4 #duplicate in pandas.txt
+https://github.com/jswhit/pyproj/zipball/master#egg=pyproj #for pyproj on 3.7 (issue 136)
+geopandas==0.4.0 #duplicate in pandas.txt
+rasterio==1.0.9 #duplicate in rasterio.txt
+rasterstats==0.13.0 #duplicate in rasterio.txt
+opencv-python-headless==3.4.3.18 #duplicate in process.txt
+scikit-image==0.14.1 #duplicate in process.txt
+scikit-learn==0.20.0 #duplicate in process.txt
+scipy==1.1.0 #duplicate in process.txt
+sentinelsat==0.12.2 #duplicate in requirements-download.txt
+python-dateutil	
+lxml==4.2.3 #duplicate in prep.txt
+geojson
+progressbar2
 affine
 attrs
 cftime

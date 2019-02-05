@@ -1,7 +1,7 @@
 import os
 from .beamdimap_ import open_beam_dimap
 from .netcdf_ import open_netcdf
-from .rasterio_ import open_rasterio
+from nd.io.rasterio_ import open_rasterio
 
 
 def open_dataset(path, *args, **kwargs):

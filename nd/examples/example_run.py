@@ -64,7 +64,6 @@ if __name__ == "__main__":
 
     xdscd = change_detection(xds, alpha=0.01, n=9) #9 multilooks #
 
-    print(xdscd)
     print('has shape {}'.format(xdscd.shape))
 
    # print('\n')
